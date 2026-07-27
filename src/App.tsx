@@ -27,6 +27,7 @@ import JurnalGuru from "./components/JurnalGuru";
 import MateriAjar from "./components/MateriAjar";
 import Profil from "./components/Profil";
 import CustomAlertModal from "./components/CustomAlertModal";
+import logoSmast from "../assets/logoSmast.png";
 
 export default function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -278,7 +279,7 @@ export default function App() {
         <div className="p-5 border-b border-slate-800 flex items-center gap-3 select-none">
           <div className="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center border border-white/20 shrink-0 shadow-lg">
             <img
-              src="../assets/image/logoSmast.png"
+              src={logoSmast}
               alt="Logo"
             />
           </div>
