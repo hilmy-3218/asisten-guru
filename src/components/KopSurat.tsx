@@ -1,4 +1,6 @@
 import React from "react";
+import logoSmast from "../../assets/image/logoSmast.png";
+import logoJatim from "../../assets/image/logoJatim.png";
 
 export default function KopSurat() {
   return (
@@ -7,7 +9,7 @@ export default function KopSurat() {
         {/* Left Logo: Lambang Jawa Timur */}
         <div className="flex-shrink-0 w-20 h-20 mr-2 flex items-center justify-center">
           <img
-            src="../../assets/image/logoJatim.png"
+            src={logoJatim}
             alt="Logo jatim"
             className="w-18 h-18 object-contain"
           />
@@ -29,7 +31,7 @@ export default function KopSurat() {
         {/* Right Logo: Logo SMAN 1 Kediri */}
         <div className="flex-shrink-0 w-20 h-20 ml-2 flex items-center justify-center">
           <img
-            src="../../assets/image/logoSmast.png"
+            src={logoSmast}
             alt="Logo SMA N 1 Kediri"
             className="w-18 h-18 object-contain"
           />
