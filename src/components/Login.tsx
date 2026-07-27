@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import logoSmast from "../../assets/image/logoSmast.png";
 import { 
   Lock, 
   User, 
@@ -79,7 +80,7 @@ export default function Login({ onLoginSuccess }: LoginProps) {
         <div className="flex justify-center">
           <div className="w-24 h-24 bg-white/5 border border-white/10 rounded-2xl flex items-center justify-center p-3 shadow-2xl backdrop-blur-xs">
           <img
-            src="../../assets/image/logoSmast.png"
+            src={logoSmast}
             alt="Logo SMA N 1 Kediri"
             className="w-18 h-18 object-contain"
           />
