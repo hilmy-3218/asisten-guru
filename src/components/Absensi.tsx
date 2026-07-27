@@ -246,7 +246,7 @@ export default function Absensi({ students }: AbsensiProps) {
           {/* Signature Block */}
           <div className="text-center w-64 mt-2">
             <p>Kediri, {new Date(selectedDate).toLocaleDateString("id-ID", { day: 'numeric', month: 'long', year: 'numeric' })}</p>
-            <p className="mt-1">Guru Mata Pelajaran,</p>
+            <p className="mt-1">Guru Pengajar,</p>
             <div className="h-16"></div>
             <p className="font-bold underline">Endang Kustiwulan, S.Pd.</p>
             <p className="text-slate-500 text-[10px] font-mono">NIP. 197303092024212003</p>
