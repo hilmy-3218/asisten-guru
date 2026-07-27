@@ -1,0 +1,6 @@
+{
+  "name": "Asisten Guru SMA Negeri 1 Kediri",
+  "description": "Aplikasi Asisten Guru dengan fitur Data Siswa, Absensi, Input Nilai, Jurnal Guru, Materi Ajar, Profil, dan Cetak PDF Ber-kop Surat Resmi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
