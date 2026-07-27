@@ -102,7 +102,7 @@ export default function Profil({ username, onPasswordChanged }: ProfilProps) {
             Username Login: <span className="font-mono bg-slate-100 px-1.5 py-0.5 rounded font-bold text-slate-700">{username}</span>
           </p>
           <p className="text-xs text-slate-400">
-            NIP. 19930412 201903 1 004 • SMA Negeri 1 Kediri
+            NIP. 197303092024212003 • SMA Negeri 1 Kediri
           </p>
         </div>
       </div>
