@@ -27,7 +27,7 @@ import JurnalGuru from "./components/JurnalGuru";
 import MateriAjar from "./components/MateriAjar";
 import Profil from "./components/Profil";
 import CustomAlertModal from "./components/CustomAlertModal";
-import logoSmast from "../assets/logoSmast.png";
+import logoSmast from "../assets/image/logoSmast.png";
 
 export default function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
